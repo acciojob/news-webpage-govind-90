@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+.container{
+	background-color:grey;
+	height:100vh;
+}
+.container1{
+	background-color:black;
+	color:white;
+	display:flex;
+	justify-content:center;
+	margin-bottom:5px;
+	border-radius:5px;
+}
+.container2{
+	
+	display:flex;
+	justify-content:center;
+	align-items:start;
+	
+}
+.div1{
+	background-color:white;
+	width:200px;
+	height:200px;
+	margin-right:5px;
+	margin-bottom:2px;
+	margin-left:10px;
+	border-radius:10px;
+	text-align:center;
+}
+.div2{
+	background-color:white;
+	width:200px;
+	height:200px;
+	margin-right:5px;
+	border-radius:10px;
+	text-align:center;
+}
+.div3{
+	background-color:white;
+	width:200px;
+	height:300px;
+	margin-right:10px;
+	border-radius:5px;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:column;
+	overflow:hidden;
+	align-items:center;
+}
+img{
+	width:100%;
+	height:auto;
+	max-height:100%;
+}
